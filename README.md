@@ -2,18 +2,18 @@
 ## Dataset Link: 
 https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction
 
-## 📊 Project Overview
+## Project Overview
 
 This notebook performs exploratory data analysis (EDA) and feature engineering on a dataset of 10,683 flight records from Indian airlines in 2019. The project transforms raw flight data into ML-ready features to enable accurate price prediction modeling.
 
-## 🎯 Objectives
+## Objectives
 
 - Perform comprehensive exploratory data analysis on flight pricing data
 - Engineer meaningful features from datetime and categorical variables
 - Handle missing values and data quality issues
 - Prepare clean, structured data for machine learning models
 
-## 📁 Dataset Information
+## Dataset Information
 
 **Dataset Size:** 10,683 flight records (2019)
 
@@ -31,7 +31,7 @@ This notebook performs exploratory data analysis (EDA) and feature engineering o
 - Median: ₹8,372
 - Standard Deviation: ₹4,611
 
-## 🔧 Feature Engineering
+## Feature Engineering
 
 ### Temporal Features
 - **Date extraction:** Day, Month, Year from journey date
@@ -59,13 +59,12 @@ Final feature set includes:
 ## Tech Stack
 -Python (NumPy,Pandas,sklearn)
 
-## 📈 Key Insights
+## Key Insights
 
 - Flight prices vary significantly (44x range from min to max)
 - Temporal features (date, time) are extracted for seasonality analysis
 - Duration and stop count are key predictors
 - Route complexity impacts pricing
 
-## 🚀 Usage
 
 
